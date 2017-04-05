@@ -1,0 +1,24 @@
+{
+  "name": "Sorting-Algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --watch js/tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSlovak/Sorting-Algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSlovak/Sorting-Algorithms/issues"
+  },
+  "homepage": "https://github.com/JSlovak/Sorting-Algorithms#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
