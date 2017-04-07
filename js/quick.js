@@ -3,7 +3,7 @@ module.exports = function quicksort(arr) {
     var arrR = [];
     var arrL = [];
 
-    // Base
+    // Base case
     if(arr.length <= 1){
       return arr;
     }

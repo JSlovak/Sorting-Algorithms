@@ -4,7 +4,7 @@ module.exports = function(arr) {
     var sorted = false;
     var temp = null;
 
-    for (var i= 0; i < arr.length ; i++){
+    for (var i= 0; i < arr.length-1 ; i++){
       sorted = true;
 
       if (arr[i] > arr[i+1]) {

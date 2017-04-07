@@ -12,4 +12,9 @@ module.exports = function mergeSort(arr) {
 //Merge subarrays
   return merge(leftSorted, rightSorted);
 
+  function merge( R, L){
+
+
+  }
+
 };
