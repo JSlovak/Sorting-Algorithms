@@ -18,6 +18,7 @@ module.exports = function quicksort(arr) {
       }
     }
 
+    // Put Humpty back together again
     var newArr = quicksort(arrL).concat(pivot, quicksort(arrR));
 
     return  newArr;

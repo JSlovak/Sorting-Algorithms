@@ -6,6 +6,8 @@ Worst case scenario
 
 #Bubble-sort --
 
+Looping, comparing, swapping, and looping.
+
 Bubble sort loops through a list and compares adjacent values, then swaps the highter value up to the top (the right side of the array)
 
 Pseudocode
