@@ -3,6 +3,7 @@ module.exports = function quicksort(arr) {
     var arrR = [];
     var arrL = [];
 
+    // Base
     if(arr.length <= 1){
       return arr;
     }
@@ -17,19 +18,6 @@ module.exports = function quicksort(arr) {
       }
     }
 
-    // console.log(arr);
-    // console.log(pivot);
-    // console.log(arrR, 'R');
-    // console.log(arrL, 'L');
-
-    // var right = quicksort(arrR);
-    // console.log(right, "right");
-
-    // var left = quicksort(arrL);
-    // console.log(left, "left");
-
-    // var almost = left.concat(pivot, right);
-    // console.log(almost);
     var newArr = quicksort(arrL).concat(pivot, quicksort(arrR));
 
     return  newArr;
